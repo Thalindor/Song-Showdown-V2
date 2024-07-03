@@ -1,0 +1,53 @@
+/* Volume Slider */ /* Volume Slider */ /* Volume Slider */ /* Volume Slider */ /* Volume Slider */ 
+.volume{
+    position: absolute;
+    bottom: 0;
+    margin: 25px 30px;
+    border-radius: 5px;
+}
+
+.volume-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 0;
+}
+
+.volume-slider{
+    display: none;
+}
+
+.volumeOff{
+    display: none;
+}
+
+.volume-slider input{
+    width: 130px;
+    cursor: pointer;
+}
+
+.volume:hover .volumeOff {
+    display: flex;
+}
+
+.volume:hover .volume-slider {
+    display: flex;
+}
+
+.volume:hover .volume-box{
+    padding: 12px 15px;
+}
+
+.volume:hover{
+    width: 240px;
+    background-color: #0b0c0c;
+
+}
+
+
+input[type="range"] {
+    border-radius: 5px; /* Kenar yuvarlama */
+    outline: none; /* Odaklandığında kenarlık görünmesini engelle */
+  }
+
+/* Volume Slider */ /* Volume Slider */ /* Volume Slider */ /* Volume Slider */ /* Volume Slider */ 

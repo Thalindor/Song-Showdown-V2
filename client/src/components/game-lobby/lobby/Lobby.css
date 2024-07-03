@@ -1,0 +1,447 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+.lobby-container{
+    background-color: #141516;
+    height: 100vh;
+}
+
+/* Lobby Container Top */
+
+.lobby-container-top {
+    padding: 45px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.lobby-container-top img{
+    width: auto;
+    height: auto;
+    width: 50px;
+}
+
+.lobby-top-configure{
+    font-family: monospace;
+    font-weight: bold;
+    
+    font-family: var(--fonts-primary);
+    font-size: 2.3rem;
+    line-height: 1.05;
+    letter-spacing: .01em;
+    text-transform: uppercase;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+.lobby-top-back{
+    color: #c31818;
+    font-size: 1.75rem;
+    line-height: 1.25;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+/*- Lobby Container Top -*/
+
+/* Lobby Container Center */
+
+.lobby-container-center{
+    height: calc(100vh - 275px);  /* height: calc(100vh - 126px);  Top container height: 129 */
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    margin-top: 5px;
+
+    
+}
+.center-left{
+    border-radius: 10px;
+    width: 18.2222vw;
+    height: 62vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.players{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    gap: 32px;
+}
+
+.lobby-player-img{
+    height: 100px;
+    width: auto;
+    height: auto;
+    width: 100px;
+    border: #fff 5px solid ;
+    border-radius: 50%;
+}
+
+.player1-img{
+    background-color: #c31818;
+
+}
+
+.player2-img{
+    background-color: #0072CE;
+
+}
+
+.player-1, .player-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.invateCode{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+    top: 35px;
+}
+
+.invateCode button{
+    padding: 0.4375rem 1.8125rem;
+    width: 265px;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    border: solid 3px #fff;
+    background-color: transparent;
+    color: #fff;
+    
+}
+
+.invateCode button:hover{
+    background-color: #272829;
+}
+
+.invateCode button:active{
+    transform: scale(.95);
+}
+
+.invateCode-copy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    gap: 5px;
+    margin-top: 8px;
+    visibility: hidden;
+}
+
+.invateCode-copy.active{
+    visibility: visible;
+}
+
+
+.center-rigth{
+    background-color: #272829; /* 222222  272829 */
+    height: 63vh;
+    max-height: 39.125rem;
+    max-width: 44rem;
+    width: 44.2222vw;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 65px;
+
+/*     -webkit-box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.75); */
+    
+}
+
+.normal:hover, .example:hover{
+    background-color: #383838;  /* 383838 */
+}
+
+.center-rigth-top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 25px;
+}
+
+.topButton1{
+    border: 3px solid #c31818;
+    color: #c31818;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.topButton2{
+    border: 3px solid #fff;
+    color: #fff;
+    transition: all 0.2s ease;
+    cursor: not-allowed;
+
+}
+
+.topButton1:hover{
+    border: 3px solid #fff;
+    color: #fff;
+}
+
+.topButton1:active{
+    transform: scale(0.95);
+
+}
+
+.center-rigth-top button{
+    padding: 12px 25px;
+    border-radius: 15px;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    background-color: transparent;
+}
+
+.center-rigth-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 17.5px;
+}
+
+.mode{
+    width: 10rem;
+    height: 10rem;
+    background-color: #141516;
+    border-radius: 10px;
+    padding: 20px;
+    color: #fff;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.mode.active {
+    background-color: #c31818!important;
+}
+
+.mode h4{
+    font-size: 19px;
+}
+
+
+
+.secret-center{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 18px;
+    
+}
+
+
+.mode.secret:hover .hidden-secret-center{
+    margin-top: 22px;
+}
+
+.hidden-secret-center{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 22px;
+    font-size: 19px;
+    transition: all 0.2s ease;
+    
+}
+
+.hidden-secret-top{
+    visibility: hidden;
+    font-size: 17px;    
+    transition: all 0.2s ease;
+}
+
+.mode.secret:hover .hidden-secret-top{
+    visibility: visible;
+}
+
+.secret{
+    cursor: not-allowed;
+    display: flex;
+    flex-direction: column;
+}
+
+.secret {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 5px;
+    background-color: #141516;
+}
+
+.normal .mode-center , .example .mode-center {
+    display: flex;
+    margin-bottom: 15px;
+    gap: 6px;
+}
+
+.mode-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.mode-center p{
+    font-size: 13px;
+}
+
+.mode-check{
+    position: absolute;
+    top: -15px;
+    right: 20px;
+    color: #c31818;
+}
+
+
+.mode-top{
+    display: flex;
+    width: 25px;
+}
+
+.center-text-mode{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+.example .mode-center p, .normal .mode-center p{
+    visibility: hidden;
+    transition: all 0.1s ease;
+}
+
+.example:hover .mode-center p, .normal:hover .mode-center p{
+    visibility: visible;
+}
+
+.example:hover .mode-center, .normal:hover .mode-center{
+    margin-top: -12px;
+}
+
+.mode-center.active p{
+    visibility: visible;
+}
+
+.mode-center.active {
+    margin-top: -12px;
+
+}
+
+
+.mode-center{
+    margin-top: 10px;
+    transition: all 0.1s ease;
+
+}
+
+.example .mode-top, .normal .mode-top {
+    visibility: hidden;
+    transition: all 0.1s ease;
+}
+
+.example:hover .mode-top, .normal:hover .mode-top{
+    visibility: visible;
+}
+
+
+.center-rigth-bottom{
+    display: flex;
+    float: right;
+    padding: 25px 25px;
+    margin-left: auto; /* Sağa hizalama için */
+
+}
+
+.center-rigth-bottom button{
+    background-color: #c31818;
+    
+    border-radius: 14px;
+    border: 3px solid #c31818;
+    padding: 10px 22px;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 2px;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    color: #fff;
+    transition: all 0.1s ease;
+}
+
+.center-rigth-bottom button:hover{
+    border: 3px solid #fff;
+}
+
+.center-rigth-bottom button:active{
+    transform: scale(0.95);
+}
+/*- Lobby Container Center -*/
+
+
+.center-guest{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 25px 25px;
+    gap: 15px;
+    font-size: 15px;
+}
+
+.guestWaiting{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.mode p {
+    font-size: 14px;
+}

@@ -16,12 +16,14 @@ The game can be played solo or with two players. Players can create a game by se
 Some screenshots from the game:
 
 ![1](https://github.com/tynansylvester23999/Song-Showdown-V2/assets/158298979/fda36c1d-9b39-495c-98d8-5e2302d61361)
-![2](https://github.com/tynansylvester23999/Song-Showdown-V2/assets/158298979/149fdb82-a3b0-4712-b41a-ababe18b49f7)
+![2](https://github.com/user-attachments/assets/bd9ec82e-d180-4434-a5a4-7f91f03cfd6a)
 ![3](https://github.com/tynansylvester23999/Song-Showdown-V2/assets/158298979/4bb3e46f-0199-4d0d-b0c1-242353c9c113)
 ![4](https://github.com/tynansylvester23999/Song-Showdown-V2/assets/158298979/d2a059a3-32d1-4807-964c-138ab7f13c2e)
 ![5](https://github.com/tynansylvester23999/Song-Showdown-V2/assets/158298979/45bc4ec9-0c6e-4eaa-8a64-9ae1b785347b)
 ![6](https://github.com/tynansylvester23999/Song-Showdown-V2/assets/158298979/fae71987-cc57-43f8-aa5f-1f402c0ab43e)
 ![7](https://github.com/tynansylvester23999/Song-Showdown-V2/assets/158298979/47796dbb-4497-4049-9987-37f9046acb8c)
-![9](https://github.com/tynansylvester23999/Song-Showdown-V2/assets/158298979/605eeef7-8e65-4a23-8679-472b92e3ea82)
+![9](https://github.com/tynansylvester23999/Song-S![345491886-149fdb82-a3b0-4712-b41a-ababe18b49f7](https://github.com/user-attachments/assets/1ecfaee6-5982-4095-bc28-c8488bc9f6de)
+![345491886-149fdb82-a3b0-4712-b41a-ababe18b49f7](https://github.com/user-attachments/assets/cbbd521d-6241-4370-b043-e62bc5e786f6)
+howdown-V2/assets/158298979/605eeef7-8e65-4a23-8679-472b92e3ea82)
 ![8](https://github.com/tynansylvester23999/Song-Showdown-V2/assets/158298979/280806fc-e5eb-4b28-8dce-5039c16e9912)
 ![final](https://github.com/tynansylvester23999/Song-Showdown-V2/assets/158298979/33b45745-9ef8-4c20-a790-1281be31eaab)

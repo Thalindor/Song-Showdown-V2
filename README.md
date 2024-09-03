@@ -23,4 +23,5 @@ Some screenshots from the game:
 ![6](https://github.com/tynansylvester23999/Song-Showdown-V2/assets/158298979/fae71987-cc57-43f8-aa5f-1f402c0ab43e)
 ![7](https://github.com/tynansylvester23999/Song-Showdown-V2/assets/158298979/47796dbb-4497-4049-9987-37f9046acb8c)
 ![8](https://github.com/tynansylvester23999/Song-Showdown-V2/assets/158298979/280806fc-e5eb-4b28-8dce-5039c16e9912)
+![9](https://github.com/tynansylvester23999/Song-Showdown-V2/assets/158298979/605eeef7-8e65-4a23-8679-472b92e3ea82)
 ![final](https://github.com/tynansylvester23999/Song-Showdown-V2/assets/158298979/33b45745-9ef8-4c20-a790-1281be31eaab)
